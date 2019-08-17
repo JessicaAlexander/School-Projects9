@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4E96A8B22F0D49D003E9506 /* DragonsDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E96A8A22F0D49D003E9506 /* DragonsDetailsVC.swift */; };
+		C4E96A9122F0D586003E9506 /* ElvesDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E96A9022F0D586003E9506 /* ElvesDetailsVC.swift */; };
+		C4E96A9322F0D5A2003E9506 /* GoblinsDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E96A9222F0D5A2003E9506 /* GoblinsDetailsVC.swift */; };
+		C4E96A9522F0D5F2003E9506 /* DragonsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E96A9422F0D5F2003E9506 /* DragonsVC.swift */; };
+		C4E96A9722F0D60E003E9506 /* ElvesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E96A9622F0D60E003E9506 /* ElvesVC.swift */; };
+		C4E96A9922F0D636003E9506 /* GoblinsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E96A9822F0D636003E9506 /* GoblinsVC.swift */; };
+		C4E96A9B22F0DF5E003E9506 /* Dragons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E96A9A22F0DF5E003E9506 /* Dragons.swift */; };
+		C4E96A9D22F0DF71003E9506 /* Elves.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E96A9C22F0DF71003E9506 /* Elves.swift */; };
+		C4E96A9F22F0DF8C003E9506 /* Goblins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E96A9E22F0DF8C003E9506 /* Goblins.swift */; };
+		C4F17CEF22F0C11E0070EEC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F17CEE22F0C11E0070EEC1 /* AppDelegate.swift */; };
+		C4F17CF122F0C11E0070EEC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F17CF022F0C11E0070EEC1 /* ViewController.swift */; };
+		C4F17CF422F0C11E0070EEC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F17CF222F0C11E0070EEC1 /* Main.storyboard */; };
+		C4F17CF622F0C1280070EEC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4F17CF522F0C1280070EEC1 /* Assets.xcassets */; };
+		C4F17CF922F0C1280070EEC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F17CF722F0C1280070EEC1 /* LaunchScreen.storyboard */; };
+		C4F17D0422F0C1290070EEC1 /* DragonsGoblinsElvesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F17D0322F0C1290070EEC1 /* DragonsGoblinsElvesTests.swift */; };
+		C4F17D0F22F0C1290070EEC1 /* DragonsGoblinsElvesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F17D0E22F0C1290070EEC1 /* DragonsGoblinsElvesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4F17D0022F0C1290070EEC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4F17CE322F0C11E0070EEC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4F17CEA22F0C11E0070EEC1;
+			remoteInfo = DragonsGoblinsElves;
+		};
+		C4F17D0B22F0C1290070EEC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4F17CE322F0C11E0070EEC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4F17CEA22F0C11E0070EEC1;
+			remoteInfo = DragonsGoblinsElves;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4E96A8A22F0D49D003E9506 /* DragonsDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonsDetailsVC.swift; sourceTree = "<group>"; };
+		C4E96A9022F0D586003E9506 /* ElvesDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElvesDetailsVC.swift; sourceTree = "<group>"; };
+		C4E96A9222F0D5A2003E9506 /* GoblinsDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoblinsDetailsVC.swift; sourceTree = "<group>"; };
+		C4E96A9422F0D5F2003E9506 /* DragonsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonsVC.swift; sourceTree = "<group>"; };
+		C4E96A9622F0D60E003E9506 /* ElvesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElvesVC.swift; sourceTree = "<group>"; };
+		C4E96A9822F0D636003E9506 /* GoblinsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoblinsVC.swift; sourceTree = "<group>"; };
+		C4E96A9A22F0DF5E003E9506 /* Dragons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dragons.swift; sourceTree = "<group>"; };
+		C4E96A9C22F0DF71003E9506 /* Elves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elves.swift; sourceTree = "<group>"; };
+		C4E96A9E22F0DF8C003E9506 /* Goblins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goblins.swift; sourceTree = "<group>"; };
+		C4F17CEB22F0C11E0070EEC1 /* DragonsGoblinsElves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragonsGoblinsElves.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F17CEE22F0C11E0070EEC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4F17CF022F0C11E0070EEC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4F17CF322F0C11E0070EEC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4F17CF522F0C1280070EEC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4F17CF822F0C1280070EEC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4F17CFA22F0C1280070EEC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4F17CFF22F0C1290070EEC1 /* DragonsGoblinsElvesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragonsGoblinsElvesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F17D0322F0C1290070EEC1 /* DragonsGoblinsElvesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonsGoblinsElvesTests.swift; sourceTree = "<group>"; };
+		C4F17D0522F0C1290070EEC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4F17D0A22F0C1290070EEC1 /* DragonsGoblinsElvesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragonsGoblinsElvesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F17D0E22F0C1290070EEC1 /* DragonsGoblinsElvesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonsGoblinsElvesUITests.swift; sourceTree = "<group>"; };
+		C4F17D1022F0C1290070EEC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4F17CE822F0C11E0070EEC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F17CFC22F0C1290070EEC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F17D0722F0C1290070EEC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4F17CE222F0C11E0070EEC1 = {
+			isa = PBXGroup;
+			children = (
+				C4F17CED22F0C11E0070EEC1 /* DragonsGoblinsElves */,
+				C4F17D0222F0C1290070EEC1 /* DragonsGoblinsElvesTests */,
+				C4F17D0D22F0C1290070EEC1 /* DragonsGoblinsElvesUITests */,
+				C4F17CEC22F0C11E0070EEC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4F17CEC22F0C11E0070EEC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4F17CEB22F0C11E0070EEC1 /* DragonsGoblinsElves.app */,
+				C4F17CFF22F0C1290070EEC1 /* DragonsGoblinsElvesTests.xctest */,
+				C4F17D0A22F0C1290070EEC1 /* DragonsGoblinsElvesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4F17CED22F0C11E0070EEC1 /* DragonsGoblinsElves */ = {
+			isa = PBXGroup;
+			children = (
+				C4F17CF022F0C11E0070EEC1 /* ViewController.swift */,
+				C4E96A9A22F0DF5E003E9506 /* Dragons.swift */,
+				C4E96A9C22F0DF71003E9506 /* Elves.swift */,
+				C4E96A9E22F0DF8C003E9506 /* Goblins.swift */,
+				C4F17CEE22F0C11E0070EEC1 /* AppDelegate.swift */,
+				C4E96A9422F0D5F2003E9506 /* DragonsVC.swift */,
+				C4E96A8A22F0D49D003E9506 /* DragonsDetailsVC.swift */,
+				C4E96A9622F0D60E003E9506 /* ElvesVC.swift */,
+				C4E96A9022F0D586003E9506 /* ElvesDetailsVC.swift */,
+				C4E96A9822F0D636003E9506 /* GoblinsVC.swift */,
+				C4E96A9222F0D5A2003E9506 /* GoblinsDetailsVC.swift */,
+				C4F17CF222F0C11E0070EEC1 /* Main.storyboard */,
+				C4F17CF522F0C1280070EEC1 /* Assets.xcassets */,
+				C4F17CF722F0C1280070EEC1 /* LaunchScreen.storyboard */,
+				C4F17CFA22F0C1280070EEC1 /* Info.plist */,
+			);
+			path = DragonsGoblinsElves;
+			sourceTree = "<group>";
+		};
+		C4F17D0222F0C1290070EEC1 /* DragonsGoblinsElvesTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4F17D0322F0C1290070EEC1 /* DragonsGoblinsElvesTests.swift */,
+				C4F17D0522F0C1290070EEC1 /* Info.plist */,
+			);
+			path = DragonsGoblinsElvesTests;
+			sourceTree = "<group>";
+		};
+		C4F17D0D22F0C1290070EEC1 /* DragonsGoblinsElvesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4F17D0E22F0C1290070EEC1 /* DragonsGoblinsElvesUITests.swift */,
+				C4F17D1022F0C1290070EEC1 /* Info.plist */,
+			);
+			path = DragonsGoblinsElvesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4F17CEA22F0C11E0070EEC1 /* DragonsGoblinsElves */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4F17D1322F0C1290070EEC1 /* Build configuration list for PBXNativeTarget "DragonsGoblinsElves" */;
+			buildPhases = (
+				C4F17CE722F0C11E0070EEC1 /* Sources */,
+				C4F17CE822F0C11E0070EEC1 /* Frameworks */,
+				C4F17CE922F0C11E0070EEC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragonsGoblinsElves;
+			productName = DragonsGoblinsElves;
+			productReference = C4F17CEB22F0C11E0070EEC1 /* DragonsGoblinsElves.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4F17CFE22F0C1290070EEC1 /* DragonsGoblinsElvesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4F17D1622F0C1290070EEC1 /* Build configuration list for PBXNativeTarget "DragonsGoblinsElvesTests" */;
+			buildPhases = (
+				C4F17CFB22F0C1290070EEC1 /* Sources */,
+				C4F17CFC22F0C1290070EEC1 /* Frameworks */,
+				C4F17CFD22F0C1290070EEC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4F17D0122F0C1290070EEC1 /* PBXTargetDependency */,
+			);
+			name = DragonsGoblinsElvesTests;
+			productName = DragonsGoblinsElvesTests;
+			productReference = C4F17CFF22F0C1290070EEC1 /* DragonsGoblinsElvesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4F17D0922F0C1290070EEC1 /* DragonsGoblinsElvesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4F17D1922F0C1290070EEC1 /* Build configuration list for PBXNativeTarget "DragonsGoblinsElvesUITests" */;
+			buildPhases = (
+				C4F17D0622F0C1290070EEC1 /* Sources */,
+				C4F17D0722F0C1290070EEC1 /* Frameworks */,
+				C4F17D0822F0C1290070EEC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4F17D0C22F0C1290070EEC1 /* PBXTargetDependency */,
+			);
+			name = DragonsGoblinsElvesUITests;
+			productName = DragonsGoblinsElvesUITests;
+			productReference = C4F17D0A22F0C1290070EEC1 /* DragonsGoblinsElvesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4F17CE322F0C11E0070EEC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Jessica Alexander";
+				TargetAttributes = {
+					C4F17CEA22F0C11E0070EEC1 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					C4F17CFE22F0C1290070EEC1 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = C4F17CEA22F0C11E0070EEC1;
+					};
+					C4F17D0922F0C1290070EEC1 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = C4F17CEA22F0C11E0070EEC1;
+					};
+				};
+			};
+			buildConfigurationList = C4F17CE622F0C11E0070EEC1 /* Build configuration list for PBXProject "DragonsGoblinsElves" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4F17CE222F0C11E0070EEC1;
+			productRefGroup = C4F17CEC22F0C11E0070EEC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4F17CEA22F0C11E0070EEC1 /* DragonsGoblinsElves */,
+				C4F17CFE22F0C1290070EEC1 /* DragonsGoblinsElvesTests */,
+				C4F17D0922F0C1290070EEC1 /* DragonsGoblinsElvesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4F17CE922F0C11E0070EEC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F17CF922F0C1280070EEC1 /* LaunchScreen.storyboard in Resources */,
+				C4F17CF622F0C1280070EEC1 /* Assets.xcassets in Resources */,
+				C4F17CF422F0C11E0070EEC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F17CFD22F0C1290070EEC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F17D0822F0C1290070EEC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4F17CE722F0C11E0070EEC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F17CF122F0C11E0070EEC1 /* ViewController.swift in Sources */,
+				C4E96A9922F0D636003E9506 /* GoblinsVC.swift in Sources */,
+				C4E96A9322F0D5A2003E9506 /* GoblinsDetailsVC.swift in Sources */,
+				C4E96A9D22F0DF71003E9506 /* Elves.swift in Sources */,
+				C4E96A9122F0D586003E9506 /* ElvesDetailsVC.swift in Sources */,
+				C4E96A9F22F0DF8C003E9506 /* Goblins.swift in Sources */,
+				C4E96A8B22F0D49D003E9506 /* DragonsDetailsVC.swift in Sources */,
+				C4F17CEF22F0C11E0070EEC1 /* AppDelegate.swift in Sources */,
+				C4E96A9B22F0DF5E003E9506 /* Dragons.swift in Sources */,
+				C4E96A9722F0D60E003E9506 /* ElvesVC.swift in Sources */,
+				C4E96A9522F0D5F2003E9506 /* DragonsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F17CFB22F0C1290070EEC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F17D0422F0C1290070EEC1 /* DragonsGoblinsElvesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F17D0622F0C1290070EEC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F17D0F22F0C1290070EEC1 /* DragonsGoblinsElvesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4F17D0122F0C1290070EEC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4F17CEA22F0C11E0070EEC1 /* DragonsGoblinsElves */;
+			targetProxy = C4F17D0022F0C1290070EEC1 /* PBXContainerItemProxy */;
+		};
+		C4F17D0C22F0C1290070EEC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4F17CEA22F0C11E0070EEC1 /* DragonsGoblinsElves */;
+			targetProxy = C4F17D0B22F0C1290070EEC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4F17CF222F0C11E0070EEC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4F17CF322F0C11E0070EEC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4F17CF722F0C1280070EEC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4F17CF822F0C1280070EEC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4F17D1122F0C1290070EEC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4F17D1222F0C1290070EEC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4F17D1422F0C1290070EEC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DragonsGoblinsElves/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JessicaAlexander.DragonsGoblinsElves;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4F17D1522F0C1290070EEC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DragonsGoblinsElves/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JessicaAlexander.DragonsGoblinsElves;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C4F17D1722F0C1290070EEC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DragonsGoblinsElvesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JessicaAlexander.DragonsGoblinsElvesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragonsGoblinsElves.app/DragonsGoblinsElves";
+			};
+			name = Debug;
+		};
+		C4F17D1822F0C1290070EEC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DragonsGoblinsElvesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JessicaAlexander.DragonsGoblinsElvesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragonsGoblinsElves.app/DragonsGoblinsElves";
+			};
+			name = Release;
+		};
+		C4F17D1A22F0C1290070EEC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DragonsGoblinsElvesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JessicaAlexander.DragonsGoblinsElvesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DragonsGoblinsElves;
+			};
+			name = Debug;
+		};
+		C4F17D1B22F0C1290070EEC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DragonsGoblinsElvesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JessicaAlexander.DragonsGoblinsElvesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DragonsGoblinsElves;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4F17CE622F0C11E0070EEC1 /* Build configuration list for PBXProject "DragonsGoblinsElves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F17D1122F0C1290070EEC1 /* Debug */,
+				C4F17D1222F0C1290070EEC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4F17D1322F0C1290070EEC1 /* Build configuration list for PBXNativeTarget "DragonsGoblinsElves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F17D1422F0C1290070EEC1 /* Debug */,
+				C4F17D1522F0C1290070EEC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4F17D1622F0C1290070EEC1 /* Build configuration list for PBXNativeTarget "DragonsGoblinsElvesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F17D1722F0C1290070EEC1 /* Debug */,
+				C4F17D1822F0C1290070EEC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4F17D1922F0C1290070EEC1 /* Build configuration list for PBXNativeTarget "DragonsGoblinsElvesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F17D1A22F0C1290070EEC1 /* Debug */,
+				C4F17D1B22F0C1290070EEC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4F17CE322F0C11E0070EEC1 /* Project object */;
+}
